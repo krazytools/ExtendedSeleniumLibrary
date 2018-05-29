@@ -1,0 +1,4 @@
+selenium >= 2.53.6
+robotframework >= 2.8.7
+robotframework-seleniumlibrary >= 3.0.0
+webcolors >= 1.8.1
