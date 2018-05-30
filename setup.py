@@ -26,7 +26,7 @@ with open(join(CURDIR, 'requirements.txt')) as f:
     REQUIREMENTS = f.read().splitlines()
 
 setup(
-    name             = 'extededseleniumlibrary',
+    name             = 'extendedseleniumlibrary',
     version          = VERSION,
     description      = 'Extended Web testing library (from SeleniumLibrary) for Robot Framework',
     long_description = DESCRIPTION,
@@ -34,7 +34,7 @@ setup(
     author_email     = 'danglanh.it@gmail.com',
     url              = 'https://github.com/krazytools/ExtendedSeleniumLibrary',
     license          = 'Apache License 2.0',
-    keywords         = 'robotframework testing testautomation selenium webdriver web',
+    keywords         = 'extended robotframework testing testautomation selenium webdriver web',
     platforms        = 'any',
     classifiers      = CLASSIFIERS,
     install_requires = REQUIREMENTS,
