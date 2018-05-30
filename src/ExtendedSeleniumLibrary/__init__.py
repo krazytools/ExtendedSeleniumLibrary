@@ -10,7 +10,7 @@ import os
 
 __version__ = '1.0.0'
 
-class ExtendedSeleniumLib(SeleniumLibrary):
+class ExtendedSeleniumLibrary(SeleniumLibrary):
 
     ROBOT_LIBRARY_SCOPE = 'GLOBAL'
 
